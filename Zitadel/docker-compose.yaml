@@ -8,7 +8,7 @@ services:
       - "proxy"
     image: "ghcr.io/zitadel/zitadel:stable"
     # ZITADEL_MASTERKEY: 'SAcD5TY0QPp89ip28bZPfEA5WDxqmobx' # run tr -dc A-Za-z0-9 </dev/urandom | head -c 32
-    command: 'start-from-init --config /example-zitadel-config.yaml --config /example-zitadel-secrets.yaml --steps /example-zitadel-init-steps.yaml --masterkey "SAcD5TY0QPp89ip28bZPfEA5WDxqmobx" --tlsMode external'
+    command: 'start-from-init --config /example-zitadel-config.yaml --config /example-zitadel-secrets.yaml --steps /example-zitadel-init-steps.yaml --masterkey "zIxe80KT8YWPCJ7hKn7ibRc1GCG1rb7Z" --tlsMode external'
     depends_on:
       certs:
         condition: "service_completed_successfully"
