@@ -4,7 +4,7 @@ Log:
 
 # Make ZITADEL accessible over HTTP, not HTTPS
 ExternalSecure: true
-ExternalDomain: zitadel.jimsgarage.co.uk # change this to your domain
+ExternalDomain: zitadel.aliix.duckdns.org # change this to your domain
 ExternalPort: 443
 
 # If not using the docker compose example, adjust these values for connecting ZITADEL to your CockroachDB
