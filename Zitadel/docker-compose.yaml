@@ -14,7 +14,7 @@ services:
         condition: "service_completed_successfully"
     environment:
       ZITADEL_FIRSTINSTANCE_ORG_HUMAN_USERNAME: admin1!@zitadel.aliix.duckdns.org
-      ZITADEL_FIRSTINSTANCE_ORG_HUMAN_PASSWORD: Carve.Hardhead5.Sibling
+      ZITADEL_FIRSTINSTANCE_ORG_HUMAN_PASSWORD: Password1!
     ports:
       - "8080:8080"
     volumes:
