@@ -5,11 +5,11 @@ metadata:
   name: jimsgarage # change to your domain
   namespace: traefik # add to traefik namespace so it can use it (you DO NOT need it in each app namespace!!!)
 spec:
-  secretName: jimsgarage-tls # change to your secretname
+  secretName: migot-tls # change to your secretname
   issuerRef:
     name: letsencrypt-production
     kind: ClusterIssuer
-  commonName: "*.jimsgarage.co.uk" # change to your domain
+  commonName: "*.pmoxk.duckdns.org" # change to your domain
   dnsNames:
-  - "*.jimsgarage.co.uk" # change to your domain
-  - jimsgarage.co.uk # change to your domain
+  - "*.pmoxk.duckdns.org" # change to your domain
+  - pmoxk.duckdns.org # change to your domain
