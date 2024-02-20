@@ -14,8 +14,8 @@ spec:
           cloudflare:
             email: ymigotca@gmail.com # add your email to your cloudflare account
             apiTokenSecretRef:
-              name: cloudflare-token-secret
-              key: cloudflare-token
+              name: duck-token-secret
+              key: duck-token
         selector:
           dnsZones:
-            - "your-domain.com" # change to your zone on CloudFlare
+            - "pmoxk.duckdns.org" # change to your zone on CloudFlare
