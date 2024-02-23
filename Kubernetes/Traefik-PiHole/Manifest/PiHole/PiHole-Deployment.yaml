@@ -26,7 +26,7 @@ spec:
       containers:
       - image: visibilityspots/cloudflared
         imagePullPolicy: IfNotPresent
-        name: cloudflared
+        name: duckdns
         ports:
         - containerPort: 53
           name: dns
