@@ -39,7 +39,7 @@ spec:
           value: 127.0.0.1:3000
       - env:
         - name: TZ
-          value: "Europe/London"
+          value: "America/Toronto"
         - name: WEBPASSWORD
           value: password # change this!
         - name: FTLCONF_REPLY_ADDR4
