@@ -2,14 +2,14 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: jimsgarage # change to your domain
+  name: migot # change to your domain
   namespace: traefik # add to traefik namespace so it can use it (you DO NOT need it in each app namespace!!!)
 spec:
   secretName: migot-tls # change to your secretname
   issuerRef:
     name: letsencrypt-production
     kind: ClusterIssuer
-  commonName: "*.pmoxk.duckdns.org" # change to your domain
+  commonName: "*.pmoxt.duckdns.org" # change to your domain
   dnsNames:
-  - "*.pmoxk.duckdns.org" # change to your domain
-  - pmoxk.duckdns.org # change to your domain
+  - "*.pmoxt.duckdns.org" # change to your domain
+  - pmoxt.duckdns.org # change to your domain
