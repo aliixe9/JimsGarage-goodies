@@ -11,11 +11,11 @@ spec:
       name: letsencrypt-production
     solvers:
       - dns01:
-          cloudflare:
+          duckdns:
             email: ymigotca@gmail.com # add your email to your cloudflare account
             apiTokenSecretRef:
               name: duck-token-secret
               key: duck-token
         selector:
           dnsZones:
-            - "pmoxk.duckdns.org" # change to your zone on CloudFlare
+            - "pmoxt.duckdns.org" # change to your zone on CloudFlare
