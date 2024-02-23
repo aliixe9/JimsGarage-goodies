@@ -24,7 +24,7 @@ spec:
       nodeSelector:
         worker: "true"
       containers:
-      - image: visibilityspots/cloudflared
+      - image: visibilityspots/duckdns
         imagePullPolicy: IfNotPresent
         name: duckdns
         ports:
