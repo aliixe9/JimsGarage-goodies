@@ -9,7 +9,7 @@ spec:
   entryPoints:
     - websecure
   routes:
-    - match: Host(`traefik2.pmox.duckdns.org`) # change this to your domain
+    - match: Host(`traefik2.pmoxk.duckdns.org`) # change this to your domain
       kind: Rule
       middlewares:
         - name: traefik-dashboard-basicauth
